@@ -1,0 +1,20 @@
+{
+  "name": "modular-practice",
+  "version": "1.0.0",
+  "description": "A practice project applying modular javascript pattern",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majoflosa/modular-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majoflosa/modular-practice/issues"
+  },
+  "homepage": "https://github.com/majoflosa/modular-practice#readme"
+}
