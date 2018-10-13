@@ -4,8 +4,11 @@
 	"description": "A practice project applying modular javascript pattern",
 	"main": "webpack.config.js",
 	"scripts": {
-		"build": "webpack",
-		"watch": "webpack --watch"
+		"webpack-dev-server": "webpack-dev-server",
+		"build": "webpack --mode production",
+		"build-dev": "webpack --mode development",
+		"watch": "webpack --watch --mode production",
+		"serve": "npm run webpack-dev-server -- --mode production"
 	},
 	"repository": {
 		"type": "git",
@@ -27,6 +30,7 @@
 		"sass-loader": "^7.1.0",
 		"style-loader": "^0.23.1",
 		"webpack": "^4.20.2",
-		"webpack-cli": "^3.1.2"
+		"webpack-cli": "^3.1.2",
+		"webpack-dev-server": "^3.1.9"
 	}
 }
