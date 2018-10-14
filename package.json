@@ -8,7 +8,7 @@
 		"build": "webpack --mode production",
 		"build-dev": "webpack --mode development",
 		"watch": "webpack --watch --mode production",
-		"serve": "npm run webpack-dev-server -- --mode production"
+		"serve": "npm run webpack-dev-server -- --mode development --hot"
 	},
 	"repository": {
 		"type": "git",
@@ -32,5 +32,8 @@
 		"webpack": "^4.20.2",
 		"webpack-cli": "^3.1.2",
 		"webpack-dev-server": "^3.1.9"
+	},
+	"dependencies": {
+		"jquery": "^3.3.1"
 	}
 }
