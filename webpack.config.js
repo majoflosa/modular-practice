@@ -6,7 +6,6 @@ module.exports = {
 		path: path.join( __dirname, '/public' ),
         filename: 'bundle.js'
 	},
-	// devtool: 'source-map',
 	devServer: {
 		contentBase: './public',
 		port: 9000,

@@ -1,5 +1,9 @@
 import fieldValue from './fieldValue';
+
 import '../style/style.sass';
 
-const fields = new fieldValue();
-fields.init();
+let app = [
+	new fieldValue()
+];
+
+app.forEach( module => module.init() );

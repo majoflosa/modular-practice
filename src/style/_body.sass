@@ -16,6 +16,8 @@ main
 .section-title
 	margin: 0 auto 10px
 
+.field-wrapper
+	margin-bottom: 15px
 
 .field-label
 	margin: 0
@@ -23,12 +25,38 @@ main
 	font-size: 0.8em
 
 .field-value
-	margin-top: 0
+	margin: 0
+	padding: 5px 8px
 	border: 1px dashed #ffffff
 	&:hover
 		border-color: #dddddd
-	&.editing-field
-		border-color: blue
+
+.editing-field
+	.field-value
+		display: none
+
+.editing-content
+	position: relative
+	display: none
+
+.editing-field
+	.editing-content
+		display: block
+
+.field-input
+	display: block
+	width: 100%
+	box-sizing: border-box
+	padding: 5px 8px
+	font-size: 1em
+
+.btn.save-value
+	font-size: 0.75em
+	padding: 5px 8px
+	margin: 5px 0 0
+	position: absolute
+	top: -1px
+	right: 3px
 
 .project-title
 	margin-bottom: 0
